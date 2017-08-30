@@ -58,8 +58,7 @@ data = [
 ]
 
 requests.post('https://www.beeminder.com/api/v1/users/YOUR-BEEMINDER-USERNAME/goals/YOUR-BEEMINDER-GOAL/datapoints.json', data=data)
-
-#print myJsonQuery	
+	
 print>>beEverLog,('{:%Y-%b-%d %H:%M:%S}'.format(datetime.datetime.now())+ ' -- ok')
 print "script executed!"
 
