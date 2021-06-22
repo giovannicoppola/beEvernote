@@ -1,7 +1,7 @@
 # beEvernoteZero (deprecated)
 Inbox Zero for Evernote using Beeminder
 
-**Update 2020: deprecated as Evernote abandoned developer access**
+**Update 2020: deprecated as Evernote abandoned developer access via token**
 
 The goal of this script is to count the notes in an Evernote notebook and to post that number onto a Beeminder goal. 
 
